@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(90deg, #5610a1 0%, #ff3ecf 100%); /* خلفية أرجواني متدرج */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.login-wrapper {
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.login-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.card-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.card-right {
+  flex: 1;
+  padding: 10px 20px;
+  margin-left: 50px;
+}
+.card-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background-color: #00c853; 
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 900;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.forgot, .create {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.link {
+  color: #00c853;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
