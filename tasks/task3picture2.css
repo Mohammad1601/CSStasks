@@ -29,12 +29,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  margin-right:30px ;
 }
 .card-right {
   flex: 1;
   padding: 10px 20px;
-  margin-left: 50px;
+  margin-left: 130px;
 }
 .card-title {
   font-size: 28px;
